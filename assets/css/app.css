@@ -1,0 +1,127 @@
+.wrapper {
+    width: 90%;
+
+    margin: 0 auto;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid__container {
+
+    width: 400px;
+    height: 400px;
+    background-color: rgb(236, 236, 236);
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+
+.grid__box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    border: 2px solid rgb(238, 235, 235);
+    box-sizing: border-box;
+}
+
+.loop__grid__box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    border: 2px solid rgb(238, 235, 235);
+    box-sizing: border-box;
+}
+
+.grid__box:hover {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(241, 177, 59);
+    border: 2px solid rgb(246, 246, 246);
+    box-sizing: border-box;
+}
+
+.loop__grid__selected {
+    background-color: rgb(251, 217, 66) !important;
+}
+
+.grid__selected {
+    background-color: rgb(251, 217, 66) !important;
+}
+
+.actions__container {
+    margin-top: 10px;
+    text-align: end;
+}
+
+.remove {
+    display: none !important;
+}
+
+#allCharacters {
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(44, 44, 44);
+}
+
+.all__chars--text {
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+    color: white;
+}
+
+#allCharacters .grid__small {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    box-sizing: border-box;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#allCharacters .grid__small:hover {
+
+    border: 2px solid rgb(240, 159, 54);
+
+
+}
+
+.grid__small--box {
+    height: 10px;
+    width: 10px;
+    border: 0.4px solid rgb(246, 246, 246);
+    background-color: rgb(44, 44, 44);
+    box-sizing: border-box;
+}
