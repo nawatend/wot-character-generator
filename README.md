@@ -17,8 +17,8 @@
 ## Additional functionalities:
 
 * User can view all created characters
-* User can peel off already created characters in a loop on the Raspberry Pi
-* User can peel off already created characters in a loop on the web application
+* User can play created characters in a loop on the Raspberry Pi
+* User can play created characters in a loop on the web application
 * User authentication
 
 
